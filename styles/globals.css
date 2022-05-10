@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color:blanchedalmond;
 }
 
 a {
@@ -13,4 +14,49 @@ a {
 
 * {
   box-sizing: border-box;
+  margin: 0;
+}
+
+.navigation {
+  list-style: none;
+  display: flex;
+  padding: 1rem;
+}
+
+.navigation li {
+  padding: 1rem;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  background-color: aliceblue;
+}
+
+
+.welcome {
+  margin-top: 5%;
+}
+
+.terms-of-use {
+  display: flex;
+}
+
+.checkboxclass {
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+}
+
+.checkboximage {
+  text-align: center;
+}
+
+.agree {
+  display: flex;
+  justify-content: space-around;
 }
